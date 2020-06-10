@@ -1,0 +1,50 @@
+/* Général ------------------------------------------------------------------------------------- */
+
+body, p, legend, label, input {
+    font: normal 8pt verdana, helvetica, sans-serif;
+}
+
+/* Forms --------------------------------------------------------------------------------------- */
+fieldset {
+    padding: 12px;
+    border: 1px #0568CD solid;
+    margin: 12px;
+}
+
+legend {
+    font-weight: bold;
+    color: #0560FF;
+}
+
+form label {
+    float: left;
+    width: 160px;
+    margin: 2px 0px 0px 0px;
+}
+
+form input {
+    margin: 2px 2px 2px 2px;
+    border: 2px #999 solid;
+}
+
+form input.sansLabel {
+    margin-left: 160px;
+}
+
+/* Styles et couleurs -------------------------------------------------------------------------- */
+.requis {
+    color: #c00;
+}
+
+.erreur {
+    color: #900;
+}
+
+.succes {
+    color: #090;
+}
+
+.info {
+    font-style: italic;
+    color: #E8A2FF;
+}
